@@ -1,0 +1,28 @@
+div{
+    height: 300px;
+    width: 300px;
+    background-color: aquamarine;
+    border: 5px solid;
+    border-radius: 50%;
+    border-color: red pink yellow green;
+    transition: width 5s, height 5s, transform 5s;
+    transition-timing-function: ease-in-out;
+    animation-name: circle;
+    animation-duration: 0.2s;
+
+    animation-iteration-count: infinite;
+}
+
+@keyframes circle{
+    0%{
+        transform: rotate(60deg);
+    }
+    50%{
+        transform: rotate(180deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+/* matrix(scalex, skewy, skewx, scaley, translatex, translatey) */

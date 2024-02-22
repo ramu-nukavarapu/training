@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <style>
+        form{
+            background-color: rgb(27, 33, 96);
+            margin: 50px 400px;
+            padding: 20px;
+            text-align: left;
+        }
+        h2,label{
+            color: white;
+        }
+        input,select,textarea{
+            width: 220px;
+        }
+
+    </style>
+</head>
+<body>
+    <center>
+        <form action="">
+            <h2>Registration Form</h2>
+            <label for="Name">Name</label>
+            <br>
+            <input type="text" name="name" required>
+            <br>
+            <label for="Email">Email</label>
+            <br>
+            <input type="email" name="email" required>
+            <br>
+            <label for="Password">Password</label>
+            <br>
+            <input type="password" name="password" required>
+            <br>
+            <label for="Phone">PhoneNo</label>
+            <br>
+            <input type="tel" name="phone" required>
+            <br>
+            <label for="Gender">Gender</label>
+            <br>
+            <select name="gender" id="gender">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="others">Others</option>
+            </select>
+            <br>
+            <label for="language">Language</label>
+            <br>
+            <input type="text" name="language" required>
+            <br>
+            <label for="zipcode">Zipcode</label>
+            <br>
+            <input type="text" name="zipcode" required>
+            <br>
+            <label for="about">About</label>
+            <br>
+            <textarea name="about" id="about" cols="30" rows="10"></textarea>
+            <br>
+            <button name="submit">submit</button>
+        </form>
+    </center>
+</body>
+</html>

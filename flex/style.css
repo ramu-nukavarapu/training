@@ -1,0 +1,21 @@
+.parent{
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+.parent >div{
+    background-color: aquamarine;
+    margin: 10px;
+    padding: 10px;
+    
+}
+
+
+/* flexbox contains
+        jusify content 
+        flex direction
+        flex flow 
+        flex wrap 
+        align items 
+        align content  */
